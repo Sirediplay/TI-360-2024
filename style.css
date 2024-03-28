@@ -1,0 +1,29 @@
+
+
+
+
+
+body{background-color: black;}
+
+.logo{max-width: 90px;}
+
+
+.cabeçalho{display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+display: flex;}
+.navegaçao{display: flex;
+    text-decoration: none;
+    align-items: center;
+}
+ul{list-style-type: none; 
+    display: flex;
+justify-content: space-around;
+margin: 30px;
+padding: 15px;}
+li a {text-decoration: none;
+      color: darkgray;
+font-size: large;}
+@media screen and (max-width: 640px){
+    .navegaçao, ul{flex-direction: column;}}
